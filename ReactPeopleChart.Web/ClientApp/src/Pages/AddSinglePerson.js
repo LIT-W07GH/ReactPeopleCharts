@@ -36,7 +36,7 @@ class AddSinglePerson extends React.Component {
                     />
                     <br />
                     <br />
-                    <button className="btn btn-primary btn-lg btn-block" onClick={this.onSubmitClick}>Submit</button>
+                    <button className="btn btn-success btn-lg btn-block" onClick={this.onSubmitClick}>Submit</button>
                 </div>
             </div>
         )
