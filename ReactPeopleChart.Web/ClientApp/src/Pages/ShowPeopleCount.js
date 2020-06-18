@@ -12,10 +12,12 @@ class ShowPeopleCount extends React.Component {
     }
 
     render() {
+        const { count } = this.state;
         return (
             <div>
-                <h2>Current person count:</h2>
-                <h1 style={{ fontSize: 300 }}>{this.state.count}</h1>
+				<h2>Current person count:</h2>
+                {count !== 0 && <h1 style={{ fontSize: 300 }}>{count}</h1>}
+                {count === 0 && <h2>Loading.....</h2>}
             </div>
         )
     }
