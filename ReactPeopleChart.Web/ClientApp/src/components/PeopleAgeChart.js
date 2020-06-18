@@ -22,7 +22,7 @@ const PeopleAgeChart = ({ people }) => {
     const data = Object.keys(grouped).map(key => {
         const group = grouped[key];
         return {
-            title: `${key} - ${+key + 9} (${group.length})`,
+            title: `[${key} - ${+key + 9}] (${group.length})`,
             value: group.length,
             color: getRandomColor()
         }

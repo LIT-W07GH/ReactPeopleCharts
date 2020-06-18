@@ -29,14 +29,14 @@ class AddRandomPeople extends React.Component {
         return (
             <div className="row">
                 <div className="col-md-6 col-md-offset-3 well">
-                    <h3>Amount to generate:</h3>
+                    <h2>Amount to generate:</h2>
                     <ReactBootstrapSlider
                         value={this.state.amount}
                         slideStop={this.onAmountSliderStop}
                         max={100}
                         min={1} />
                     <br />
-                    <h3>Age Range</h3>
+                    <h2>Age Range</h2>
 
                     <ReactBootstrapSlider
                         value={this.state.ageRange}
