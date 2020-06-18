@@ -42,8 +42,8 @@ namespace ReactPeopleChart.Web.Controllers
         {
             var people = Enumerable.Range(1, viewModel.Amount).Select(_ => new Person
             {
-                FirstName = Faker.Name.First(),
                 LastName = Faker.Name.Last(),
+                FirstName = Faker.Name.First(),
                 Age = Faker.RandomNumber.Next(viewModel.MinAge, viewModel.MaxAge)
             });
 
