@@ -21,6 +21,7 @@ class Layout extends Component {
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='/add-single-person'>Add Single Person</Link></li>
                 <li><Link to='/add-random-people'>Add Random People</Link></li>
+                <li><Link to='/show-people-count'>Show People Count</Link></li>
               </ul>
             </div>
           </div>
