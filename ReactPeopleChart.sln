@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactPeopleChart.Web", "ReactPeopleChart.Web\ReactPeopleChart.Web.csproj", "{AE878954-1770-4BE9-B031-B2969A6EACEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactPeopleChart.Data", "ReactPeopleChart.Data\ReactPeopleChart.Data.csproj", "{B8616B9F-7C83-442B-BFBC-A780556CA4DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE878954-1770-4BE9-B031-B2969A6EACEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE878954-1770-4BE9-B031-B2969A6EACEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE878954-1770-4BE9-B031-B2969A6EACEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE878954-1770-4BE9-B031-B2969A6EACEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8616B9F-7C83-442B-BFBC-A780556CA4DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8616B9F-7C83-442B-BFBC-A780556CA4DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8616B9F-7C83-442B-BFBC-A780556CA4DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8616B9F-7C83-442B-BFBC-A780556CA4DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1F4E8A3-4193-4CDF-B6A3-E61FA07AE91C}
+	EndGlobalSection
+EndGlobal
