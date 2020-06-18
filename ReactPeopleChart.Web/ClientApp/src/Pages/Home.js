@@ -24,7 +24,7 @@ class Home extends React.Component {
             <div className="row">
                 <div className="col-md-10 col-md-offset-1">
                     <button className="btn btn-primary btn-lg btn-block" onClick={this.toggleAgeChart}>Toggle Age Chart</button>
-                    {this.state.showChart && <div style={{ height: 400 }}>
+                    {this.state.showChart && <div style={{ height: 850 }}>
                         <PeopleAgeChart people={this.state.people} />
                     </div>}
                     <table className="table table-hover table-bordered table-striped">
